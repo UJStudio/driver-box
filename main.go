@@ -27,13 +27,7 @@ func main() {
 		clientId = ""
 	}
 	helper.DriverConfig.DefaultDeviceTTL = 5
-	driverbox.Start([]export.Export{&export.MqttExport{
-		Broker:      broker,
-		ClientID:    clientId,
-		Username:    username,
-		Password:    password,
-		ExportTopic: exportTopic,
-	}})
+	driverbox.Start([]export.Export{})
 }
 
 func localMode() {

@@ -29,9 +29,9 @@
 	"timerTasks": [],
 	"connections":{
 		"common":{
-			"host": "0.0.0.0",
-			"port": 8080
+			"host": "10.138.98.128",
+			"port": 3671
 		}
 	},
-	"protocolName":"http_server"
+	"protocolName":"knx"
 }
